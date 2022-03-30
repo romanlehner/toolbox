@@ -14,4 +14,4 @@
 Font issues in visual code can be fixed by adding the `MesloLGS NF` font to the vscode user settings.
 
 Visual example:
-![zsh](images/zsh_setup_example.png)
+![zsh](../images/zsh_setup_example.png)
