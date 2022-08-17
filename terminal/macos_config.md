@@ -10,8 +10,18 @@
 
 	brew install fzf
 	$(brew --prefix)/opt/fzf/install	
-
-Font issues in visual code can be fixed by adding the `MesloLGS NF` font to the vscode user settings.
-
+	
 Visual example:
 ![zsh](../images/zsh_setup_example.png)
+
+### Visual Code
+Font issues in visual code can be fixed by adding the `MesloLGS NF` font to the vscode user settings.
+
+### Iterm2
+To enable word jumps with arrow key + option:
+
+1. Click on iTerm2 and open `Preferences`
+1. Click on `Profiles`
+1. Click on `Keys` tab
+1. Click `Key Mappings` tab
+1. Click the `Presets` dropdown and select `Natural Text Editing`
