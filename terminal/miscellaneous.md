@@ -27,5 +27,5 @@ pear coconut blueberry
 
 Extract first column if third column contains blueberry:
 ```bash
-awk '$3 == "blueberry" {print: $1}' file
+awk '$3 == "blueberry" {print $1}' file
 ```
