@@ -14,3 +14,13 @@ Get pod name by label and re-use it in other commands
 
     kubectl get logs "${kubectl get pod -l app=app -o jsonpath='{.items[0].metadata.name}'}"
     
+## Pods
+### Run container indefinetaly
+```yaml
+spec:
+  containers:
+    - command: ['/bin/sh', '-c', '--']
+      args: ['while true; do sleep 30; done;']
+      name: ...
+      image: ...
+```
